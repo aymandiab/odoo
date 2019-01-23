@@ -6,3 +6,6 @@ Docs: man:systemd-sysv-generator(8)
 Process: 4265 ExecStop=/etc/init.d/odoo-server stop (code=exited, status=0/SUCCESS)
 Process: 4270 ExecStart=/etc/init.d/odoo-server start (code=exited, status=0/SUCCESS)
 ------------------------------------------------------------
+sudo apt purge python2.7         ...>to remove python
+
+---------------------------------
