@@ -20,3 +20,20 @@ maybe the package is installed on another version on python
 ---------------------------------------------------------------------
 locate python             --- to find all files related to software
 ------------------------------------------
+ERROR IN ODOO RUNNIONG NOT SOLVED
+
+Traceback (most recent call last):
+  File "./odoo-bin", line 5, in <module>
+    import odoo
+  File "/home/workplace/odoo/odoo/__init__.py", line 89, in <module>
+    from . import modules
+  File "/home/workplace/odoo/odoo/modules/__init__.py", line 8, in <module>
+    from . import db, graph, loading, migration, module, registry
+  File "/home/workplace/odoo/odoo/modules/graph.py", line 10, in <module>
+    import odoo.tools as tools
+  File "/home/workplace/odoo/odoo/tools/__init__.py", line 8, in <module>
+    from .config import config
+  File "/home/workplace/odoo/odoo/tools/config.py", line 18, in <module>
+    from passlib.context import CryptContext
+ModuleNotFoundError: No module named 'passlib'
+-----------------------------------------------------------
