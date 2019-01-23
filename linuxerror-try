@@ -19,3 +19,6 @@ sudo mv /usr/lib/python2.7/dist-packages/PyPDF2  /usr/lib/python3/dist-packages/
 
 
 maybe the package is installed on another version on python
+---------------------------------------------------------------------
+locate python             --- to find all files related to software
+------------------------------------------
