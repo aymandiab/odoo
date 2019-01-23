@@ -1,0 +1,8 @@
+root@odoo-11:~# service odoo-server status
+● odoo-server.service - LSB: Enterprise Business Applications
+Loaded: loaded (/etc/init.d/odoo-server; bad; vendor preset: enabled)
+Active: active (exited) since Sun 2017-10-22 14:01:39 UTC; 5s ago
+Docs: man:systemd-sysv-generator(8)
+Process: 4265 ExecStop=/etc/init.d/odoo-server stop (code=exited, status=0/SUCCESS)
+Process: 4270 ExecStart=/etc/init.d/odoo-server start (code=exited, status=0/SUCCESS)
+------------------------------------------------------------
