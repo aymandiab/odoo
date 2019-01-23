@@ -9,3 +9,4 @@ Process: 4270 ExecStart=/etc/init.d/odoo-server start (code=exited, status=0/SUC
 sudo apt purge python2.7         ...>to remove python
 
 ---------------------------------
+apt show python2.7       to show how it ibe installed 
