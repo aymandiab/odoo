@@ -1,0 +1,5 @@
+sudo apt-get install system-config-samba     //to share files with win
+-----------------
+sudo -u  postgres psql
+alter user postgres password 'myPassword' ;     change the password
+-------------------------------------------------------
